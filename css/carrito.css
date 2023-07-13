@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2? family=Open+Sans:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffd8d4;
+    font-family: 'Open+Sans:wght@300&display=swap', sans-serif;
+    font-size: 16px;
+}
+
+.navegador {
+    display: flex;
+    background: #fa9d9d;
+    justify-content: space-between;
+}
+
+.lista {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista li {
+    list-style: none;
+    padding: 10px;
+}
+
+.lista li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+
+.lista li a:hover {
+    color: rgb(222, 199, 191);
+    font-size: 20px;
+}
+
+.carrito {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+
+.carrito img {
+    width: 40px;
+    height: 40px;
+}
+
+#contador {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid #e69e8c;
+    background: #ffa189;
+    border-radius: 360px;
+    font-size: 20px;
+    padding: 10px 13px;
+}
+
+.encabezado {
+    height: 300px;
+    background-image: url(../images/banner.png);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.encabezado h1 {
+    padding: 100px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.title-pag {
+    background: #c58585;
+    text-align: center;
+}
+
+.title-pag h2 {
+    color: #fff;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.container {
+    background-color: #facec6;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.container-card {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 30%;
+    background: #fffcf9;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px#ffc2c2;
+    text-align: center;
+}
+
+.img-card {
+    width: 100%;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.card-button {
+    background-color: #1b1b1b;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.card-button:hover {
+    background: #fbc5b7;
+}
+
+.precio-card {
+    font-size: 17px;
+    color: #fff;
+    margin: 3px;
+}
+
+.paragraph {
+    color: #000000;
+}
+
+.card-title {
+    color: #060606;
+    font-size: 25px;
+}
+
+.separador {
+    background: #f5a597;
+    height: 4px;
+}
+
+footer {
+    background-color: #1b1b1b;
+    color: #ffdfdb;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+}

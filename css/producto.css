@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wapper {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(maroon), color-stop(50%, rgb(186, 95, 113)), color-stop(90%, rgb(232, 200, 200)));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1092px;
+    padding-top: 550px;
+    margin-bottom: 303px;
+    color: #ffffff;
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+}
+
+.titulo {
+    color: rgb(255, 255, 255);
+    font-size: 124px;
+    margin-bottom: 108px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30vw;
+    height: 300px;
+}
+
+.card-image {
+    width: 47%;
+    height: 83%;
+    margin: 18px;
+    margin-top: 10px;
+    margin-bottom: 28px;
+    border-radius: 20px;
+}
